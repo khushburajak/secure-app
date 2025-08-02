@@ -1,0 +1,83 @@
+.mfa-setup-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.mfa-setup-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mfa-setup-card h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.mfa-instructions {
+    margin-bottom: 2rem;
+}
+
+.mfa-instructions h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.mfa-instructions ol {
+    color: #666;
+    line-height: 1.6;
+    padding-left: 1.5rem;
+}
+
+.mfa-instructions li {
+    margin-bottom: 0.5rem;
+}
+
+.qr-code-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.qr-code-container h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.secret-container {
+    margin: 2rem 0;
+}
+
+.secret-container h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.secret-key {
+    display: block;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    font-family: "Courier New", monospace;
+    word-break: break-all;
+    border: 1px solid #dee2e6;
+}
+
+.mfa-success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.mfa-success p {
+    color: #155724;
+    margin-bottom: 0.5rem;
+}
+
+.mfa-success p:last-child {
+    margin-bottom: 0;
+}
