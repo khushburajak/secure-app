@@ -48,7 +48,6 @@ exports.updateProfile = async (req, res) => {
     }
 };
 
-// Add to userController.js
 exports.getAllUsers = async (req, res) => {
     try {
         if (req.user.role !== 'admin') {

@@ -70,7 +70,6 @@ const TransactionsPage = () => {
                 details: '',
             });
 
-            // Refresh the transactions list
             await fetchTransactions();
 
         } catch (error) {
